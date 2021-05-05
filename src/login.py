@@ -11,7 +11,7 @@ def menu_pantalla():
     pantalla.geometry("300x380")
     pantalla.title("Bienvenido!")
     #icono: pantalla.iconbitmap("url") tiene que ser extension .ico
-    image=PhotoImage(file="usuario2.gif")
+    image=PhotoImage(file="img/usuario2.gif")
     image=image.subsample(1,1)
     label=Label(image=image)
     label.pack()
